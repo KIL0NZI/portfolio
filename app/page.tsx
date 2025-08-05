@@ -405,7 +405,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p>&copy; {new Date().getFullYear()} Alex Johnson. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Martin Kilonzi. All rights reserved.</p>
             </div>
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild>
