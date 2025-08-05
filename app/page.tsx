@@ -173,14 +173,12 @@ export default function Portfolio() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700"
-                  onClick={() => {
-                      const contact = document.getElementById("contact");
-                      contact?.scrollIntoView({ behavior: "smooth" });
-                  }}>
-                  <Mail className="mr-2 h-4 w-4" />
-                  Get In Touch
-                </Button>
+                <a href="#contact">
+                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                    <Mail className="mr-2 h-4 w-4" />
+                    Get In Touch
+                  </Button>
+                </a>
                 <a href="/CVMartinKilonzi.pdf" download>
                   <Button size="lg" variant="outline">
                     <Download className="mr-2 h-4 w-4" />
