@@ -177,10 +177,12 @@ export default function Portfolio() {
                   <Mail className="mr-2 h-4 w-4" />
                   Get In Touch
                 </Button>
-                <Button size="lg" variant="outline">
-                  <Download className="mr-2 h-4 w-4" />
-                  Download Resume
-                </Button>
+                <a href="/CVMartinKilonzi.pdf" download>
+                  <Button size="lg" variant="outline">
+                    <Download className="mr-2 h-4 w-4" />
+                    Download Resume
+                  </Button>
+                </a>
               </div>
               <div className="flex gap-4">
                 <Button variant="ghost" size="icon" asChild>
