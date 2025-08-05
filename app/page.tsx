@@ -210,7 +210,7 @@ export default function Portfolio() {
                   <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 p-4">
                     <Image
                       src="/me.jpeg"
-                      alt="Alex Johnson"
+                      alt="martin Kilonzi"
                       width={300}
                       height={300}
                       className="w-full h-full rounded-full object-cover"
